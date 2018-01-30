@@ -23,7 +23,7 @@
 // logged in user account, if any
 @property (nonatomic, readonly) SCKMAccountStatus accountStatus;
 @property (nonatomic, readonly) SCKMApplicationPermissionStatus permissionStatus;
-@property (nonatomic, readonly) CKRecordID *accountRecordID;
+@property (nonatomic, retain) CKRecordID *accountRecordID;
 @property (nonatomic, readonly) CKDiscoveredUserInfo *accountInfo;
 @property (nonatomic, retain) NSPersonNameComponents *personInfo;
 @property (nonatomic, getter=isSubscribed) BOOL subscribed;

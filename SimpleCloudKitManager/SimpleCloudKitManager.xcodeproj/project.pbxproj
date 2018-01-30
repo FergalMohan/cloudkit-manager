@@ -344,10 +344,12 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SimpleCloudKitManager/Info.plist;
+				ONLY_ACTIVE_ARCH = NO;
 				ONLY_ACTIVE_PLATFORM = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.milestonemade.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -363,6 +365,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.milestonemade.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;

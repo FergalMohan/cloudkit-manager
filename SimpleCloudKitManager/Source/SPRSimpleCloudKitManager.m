@@ -17,7 +17,7 @@
 // logged in user account, if any
 @property (nonatomic, assign) SCKMAccountStatus accountStatus;
 @property (nonatomic, assign) SCKMApplicationPermissionStatus permissionStatus;
-@property (nonatomic, strong) CKRecordID *accountRecordID;
+//@property (nonatomic, strong) CKRecordID *accountRecordID;
 @property (nonatomic, strong) CKDiscoveredUserInfo *accountInfo;
 
 @property (readonly) CKContainer *container;
