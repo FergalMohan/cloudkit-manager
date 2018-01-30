@@ -63,6 +63,7 @@
     self.accountStatus = SCKMAccountStatusCouldNotDetermine;
     self.permissionStatus = SCKMApplicationPermissionStatusCouldNotComplete;
     self.accountInfo = nil;
+    self.personInfo = nil;
     self.accountRecordID = nil;
 }
 
